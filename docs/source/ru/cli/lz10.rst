@@ -1,0 +1,85 @@
+..
+    Copyright 2020 RoadrunnerWMC
+
+    This file is part of ndspy.
+
+    ndspy is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ndspy is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ndspy.  If not, see <https://www.gnu.org/licenses/>.
+
+``ndspy.lz10``: сжатие LZ10
+==========================
+
+Командный интерфейс :py:mod:`ndspy.lz10` позволяет легко сжимать и разжимать
+файлы в формате *LZ10*. Запустить его можно через ``python3 -m ndspy.lz10`` или
+``ndspy_lz10``, а программно — через :py:func:`ndspy.lz10.main`.
+
+Краткое описание использования:
+
+.. code-block:: text
+
+    $ python3 -m ndspy.lz10 -h
+    usage: lz10.py [-h] {compress,c,decompress,d} ...
+
+    ndspy.lz10 CLI: Compress or decompress files using LZ10.
+
+    optional arguments:
+      -h, --help            show this help message and exit
+
+    commands:
+      (run a command with -h for additional help)
+
+      {compress,c,decompress,d}
+        compress (c)        compress a file
+        decompress (d)      decompress a file
+
+Модуль предлагает команды для сжатия и разжатия:
+
+Сжатие (``compress`` / ``c``)
+----------------------------
+
+Краткое описание:
+
+.. code-block:: text
+
+    $ python3 -m ndspy.lz10 compress -h
+    usage: lz10.py compress [-h] input_file [output_file]
+
+    positional arguments:
+      input_file   input file to compress
+      output_file  what to save the compressed file as
+
+    optional arguments:
+      -h, --help   show this help message and exit
+
+Эта команда сжимает файл в формате *LZ10*. Если имя выходного файла не задано,
+будет использовано имя входного файла с расширением ``.cmp``.
+
+Разжатие (``decompress`` / ``d``)
+--------------------------------
+
+Краткое описание:
+
+.. code-block:: text
+
+    $ python3 -m ndspy.lz10 decompress -h
+    usage: lz10.py decompress [-h] input_file [output_file]
+
+    positional arguments:
+      input_file   input file to decompress
+      output_file  what to save the decompressed file as
+
+    optional arguments:
+      -h, --help   show this help message and exit
+
+Эта команда разжимает файл, сжатый в формате *LZ10*. Если не указано имя
+выходного файла, используется имя входного файла с расширением ``.dec``.
