@@ -65,25 +65,6 @@ Interested? Read on to see some examples, or check the :doc:`api/index` to see
 the documentation for a specific module. When you're ready to install, head
 over to the :ref:`installation` section!
 
-Русская документация
---------------------
-
-Если вы предпочитаете читать документацию на русском языке, посетите
-:doc:`ru/index`. Там собраны русские переводы основных разделов,
-включая руководство, справочники и приложения.
-
-Если вы предпочитаете читать документацию на русском языке, посетите
-:doc:`ru/index`. Там собраны русские переводы основных разделов,
-включая руководство, справочники и приложения.
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Русская документация
-
-    ru/index
-
-English documentation continues below.
-
 .. note::
     If you plan to use ndspy to work with sound data and you aren't yet
     familiar with *SDAT* files, consider reading :doc:`the appendix explaining
@@ -280,7 +261,7 @@ subject to drastic changes at any time. This is also mentioned in the
 
 .. toctree::
     :maxdepth: 2
-    :caption: English documentation
+    :caption: Contents
 
     Home <self>
     tutorials/index
