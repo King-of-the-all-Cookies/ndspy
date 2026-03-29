@@ -100,10 +100,7 @@ Documentation for sequence event classes can be found on the
 
 .. toctree::
     :maxdepth: 2
-
     :caption: Subpages
-
-
 
     soundSequence-events
 

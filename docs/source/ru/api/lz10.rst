@@ -32,6 +32,7 @@
 
     along with ndspy.  If not, see <https://www.gnu.org/licenses/>.
 
+.. title:: ndspy.lz10: Сжатие LZ10
 
 
 ``ndspy.lz10``: сжатие LZ10

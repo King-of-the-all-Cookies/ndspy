@@ -80,10 +80,7 @@ ndspy и запускаете нужную копию Python. Далее пер�
 
 .. toctree::
     :maxdepth: 1
-
     :caption: Страницы
-
-
 
     getting-started
 

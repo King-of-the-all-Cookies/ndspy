@@ -32,6 +32,7 @@
 
     along with ndspy.  If not, see <https://www.gnu.org/licenses/>.
 
+.. title:: ndspy.codeCompression: Сжатие кода
 
 
 ``ndspy.codeCompression``: сжатие кода

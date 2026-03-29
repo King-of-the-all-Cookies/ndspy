@@ -34,6 +34,8 @@
 
 
 
+.. title:: ndspy.codeCompression CLI: Сжатие кода
+
 ``ndspy.codeCompression``: СЃР¶Р°С‚РёРµ РєРѕРґР°
 
 ======================================

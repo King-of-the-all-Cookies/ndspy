@@ -46,10 +46,7 @@
 
 .. toctree::
     :maxdepth: 1
-
     :caption: РЎС‚СЂР°РЅРёС†С‹
-
-
 
     codeCompression
 
